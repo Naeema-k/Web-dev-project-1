@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="library.css" />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- top most part of the page -->
+    <div class="top-bar">
+      <span>
+          <img class="hamburger" src="icons/hamburger-menu.png">
+      </span>
+      <span>
+          <img class="vit-logo" src="icons/vit-logo.png">
+      </span>
+      <span class="vit-text">
+          <b>VIT</b>
+      </span>
+      <span class="vellore-campus-text">
+          (Vellore Campus)
+      </span>
+      <span class="home-img">
+          <img class="home-icon" src="icons/home.png">
+      </span>
+  </div>
+  <!-- end of top mostpart of the page -->
+
+  <!-- side bar -->
+  <!-- Side navigation -->
+  <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/contacts.png" />
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/info.png" />
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/academics.png" />
+        <div class="dropdown">
+          <button><a href="timetable.html" style="color: rgb(0, 0, 0);">Time Table</a></button>
+        </div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/examination.png" />
+        <div class="dropdown">
+          <button><a href="schedule.html" style="color: rgb(0, 0, 0);">Exam Schedule</a></button>
+        </div>
+        <div class="dropdown">
+          <button><a href="marks.html" style="color: rgb(0, 0, 0);">Grades</a></button>
+        </div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.png" />
+        <div class="dropdown"><button><a href="library.html" style="color: rgb(0, 0, 0);">Online book recommendation</a></button></div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/services.png" />
+        <div class="dropdown">
+          <button><a href="facility.html" style="color: rgb(0, 0, 0);">Services</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of side bar -->
+
+    <!-- Page content -->
+    <div class="main">...</div>
+    <div class="entire-page">
+      <div class="contents">
+        <div class="title-line">LIBRARY ONLINE BOOK RECOMMENDATION</div>
+        <div class="instruction-container">
+          <div class="instruction">
+            "Before recommending the title,<br />
+            kindly check the Library Catalog (OPAC)" regarding the availability
+            of the book<br /><br />
+            <a href="#">OPAC-Online Book Search-Click Here</a>
+          </div>
+        </div>
+        <form action="">
+        <div class="form">
+          
+          <div class="each-input">
+            <label for="book-title"
+              >Title of the Book <span style="color: red">*</span></label
+            >
+            <input type="text" placeholder="Enter the title" />
+          </div>
+          <br />
+          <div class="each-input">
+            <label for="author"
+              >Name of the Author(s) <span style="color: red">*</span></label
+            >
+            <input
+              type="text"
+              placeholder="Enter the Author Details"
+              required
+            />
+          </div>
+          <br />
+          <div class="each-input">
+            <label for="ISBN-Number">ISBN Number</label>
+            <input type="number" placeholder="Enter the ISBN Number" required />
+          </div>
+          <br />
+          <div class="each-input">
+            <label for="publisher"
+              >Publisher Details <span style="color: red">*</span></label
+            >
+            <input
+              type="text"
+              placeholder="Enter the Publisher Details"
+              required
+            />
+          </div>
+          <br />
+          <div class="each-input">
+            <label for="copy-number"
+              >Number of Copies <span style="color: red">*</span></label
+            >
+            <input
+              type="text"
+              placeholder="Enter the Number of Copies"
+              required
+            />
+          </div>
+          <br />
+          <div class="each-input">
+            <label for="remarks"
+              >Remarks <span style="color: red">*</span></label
+            >
+            <input
+              id="remarks"
+              type="text"
+              placeholder="Enter the remarks (100 words)"
+              required
+              style="resize: vertical; overflow: auto"
+            />
+          </div>
+          <br />
+
+        </div>
+        <br />
+        <div class="button">
+          <button type="save" class="btn" style="color: rgb(218, 215, 215)">
+            SAVE
+          </button>
+        </div>
+      </form>
+      </div>
+    </div>
+  </body>
+</html>

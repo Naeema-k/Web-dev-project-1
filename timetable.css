@@ -1,0 +1,113 @@
+.top-bar{
+  line-height: 25px;
+  background-color: rgb(70, 70, 180);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 300;
+}
+.hamburger{
+  width: 50px;
+}
+.vit-logo{
+  width: 50px;
+}
+.vit-text{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+.vellore-campus-text{
+  color: white;
+  font-size: medium;
+}
+.home-icon{
+  width: 50px;
+}
+
+
+
+/* side-bar */
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: rgb(234, 236, 233);;
+  width: 35px;
+  z-index: 200;
+  padding-top: 0.05px;
+}
+
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.dropdown{
+  display: none;
+  margin-left: 50px;
+}
+
+.sidebar-link:hover .dropdown{
+  display: block;
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}
+/* end of side bar */
+
+.title{
+    border-bottom:1px solid rgb(224, 222, 218);
+    line-height: 40px;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.semester-selection{
+  margin-left: 40px;
+}
+p{
+  margin-left: 40px;
+}
+.table{
+  margin-left: 40px;
+}
+.dropdown-sem {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-sem-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;   
+    padding: 12px 16px;
+    /* z-index: 1; */
+  }
+  
+  .dropdown-sem:hover .dropdown-sem-content {
+    display: block;
+  }
+  
+  table,th,td{
+    
+    border: 1px solid rgb(89, 80, 80);
+    border-collapse: collapse;
+    
+  }
+  th{
+    background-color: rgb(197, 197, 240);
+  }
+  

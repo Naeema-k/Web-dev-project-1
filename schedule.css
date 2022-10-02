@@ -1,0 +1,122 @@
+.top-bar{
+  line-height: 25px;
+  background-color: rgb(70, 70, 180);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 300;
+}
+.hamburger{
+  width: 50px;
+}
+.vit-logo{
+  width: 50px;
+}
+.vit-text{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+.vellore-campus-text{
+  color: white;
+  font-size: medium;
+}
+.home-icon{
+  width: 50px;
+}
+
+
+
+/* side-bar */
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: rgb(234, 236, 233);;
+  width: 35px;
+  z-index: 200;
+  padding-top: 0.05px;
+}
+
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.dropdown{
+  
+  display: none;
+  margin-left: 50px;
+}
+
+.sidebar-link:hover .dropdown{
+  display: block;
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}
+/* end of side bar */
+
+
+table,td {
+    border: 1px solid rgb(201, 199, 199);
+    border-collapse: collapse;
+    text-align: left;
+    width: 1220px;
+    
+  }
+  td {
+    background-color: white;
+  }
+  th{
+    background-color: rgb(59, 112, 168);
+    color: white;
+    border: 1px solid rgb(201, 199, 199);
+  }
+  .select-semester{
+    display: block;
+  }
+  .all-tables{
+    /* display: flex; */
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  .select-semester{
+    margin-left: 40px;
+  }
+  .sem-sel{
+  
+    display: none;
+    margin-left: 50px;
+  }
+  
+  .sem-sel:hover .dropdown-sem{
+    display: block;
+  }
+  .sem-input{
+    margin-left: 40px;
+  }
+  .exam-name{
+    /* width: 1220px; */
+    display: flex;
+    flex: 1;
+    color: black;
+    background-color: gainsboro;
+    border: none;
+    
+    
+    
+  }

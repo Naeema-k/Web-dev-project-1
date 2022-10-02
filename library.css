@@ -1,0 +1,142 @@
+.top-bar{
+  line-height: 25px;
+  background-color: rgb(70, 70, 180);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 300;
+}
+.hamburger{
+  width: 50px;
+}
+.vit-logo{
+  width: 50px;
+}
+.vit-text{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+.vellore-campus-text{
+  color: white;
+  font-size: medium;
+}
+.home-icon{
+  width: 50px;
+}
+
+
+
+/* side-bar */
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: rgb(234, 236, 233);;
+  width: 35px;
+  z-index: 200;
+  padding-top: 0.05px;
+}
+
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.dropdown{
+  display: none;
+  margin-left: 50px;
+}
+
+.sidebar-link:hover .dropdown{
+  display: block;
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}
+/* end of side bar */
+
+.entite-page {
+  background-color: rgb(133, 37, 37);
+  border-top: rgb(77, 77, 163);
+  margin-left: 40px;
+  margin-bottom: 40px;
+  border: 1px solid azure;
+  height: 3000px;
+}
+.contents {
+  background-color: rgb(234, 236, 233);
+  margin-left: 50px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+
+.title-line {
+  line-height: 40px;
+  font-size: 20px;
+  color: rgb(81, 52, 52);
+  border-top: 1px solid blue;
+  border-bottom: 1px solid rgb(230, 228, 228);
+  padding-left: 20px;
+}
+.instruction {
+  background-color: rgb(213, 216, 220);
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 1px solid black;
+  height: 60px;
+}
+.instruction-container {
+  border-bottom: 1px solid rgb(230, 228, 228);
+}
+.form {
+  border-bottom: 1px solid rgb(230, 228, 228);
+  margin-left: 200px;
+  margin-right: 200px;
+}
+input {
+  width: 100%;
+}
+.each-input {
+  display: grid;
+  grid-template-columns: 200px 500px;
+  column-gap: 20px;
+  line-height: 30px;
+}
+label {
+  text-align: right;
+}
+#remarks {
+  resize: vertical;
+  overflow: auto;
+}
+.btn {
+  line-height: 20px;
+  width: 400px;
+  margin-left: 420px;
+  background-color: rgb(51, 122, 183);
+  border-radius: 7px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.button {
+  color: white;
+}
